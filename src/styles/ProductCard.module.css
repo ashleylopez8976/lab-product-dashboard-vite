@@ -12,4 +12,55 @@
   border-color: #c62828;
 }
 
+.card {
+  color: #162536;
+  font-family: Cambria, Georgia, serif;
+}
+
+.productHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.productIcon {
+  font-size: 1.8rem;
+}
+.card {
+  color: #162536;
+  font-family: Cambria, Georgia, serif;
+}
+
+.productHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.productIcon {
+  font-size: 1.8rem;
+}
+
 /* TODO: Add special styling for out-of-stock products */
+.card {
+  color: black;
+}
+
+.card {
+  color: black;
+}
+
+.card h3,
+.card p {
+  color: black;
+}
+
+.outOfStock {
+  font-style: normal;
+}
+
+.stockLabel {
+  font-style: italic;
+}

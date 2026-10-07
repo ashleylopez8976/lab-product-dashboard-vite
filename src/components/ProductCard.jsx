@@ -11,9 +11,20 @@ const ProductCard = ({ product, onRemove }) => {
           : `${styles.card} ${styles.outOfStock} outOfStockClass`
       }
     >
-      <h3>{product.name}</h3>
+    <h3 className={styles.productHeading}>
+      <span className={styles.productIcon} aria-hidden="true">
+        {product.name === 'Laptop'
+          ? '💻'
+          : product.name === 'Phone'
+            ? '📱'
+            : '▣'}
+  </span>
+  <span>{product.name}</span>
+</h3>
       <p>{product.price}</p>
-      <p>{product.inStock ? 'In Stock' : 'Out of Stock'}</p>
+      <p className={!product.inStock ? styles.stockLabel : undefined}>
+  {product.inStock ? 'In Stock' : 'Out of Stock'}
+</p>
 
       <Button
         variant="outlined"

@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Product Dashboard</h1>
+      <h1 className="dashboardTitle">Product Dashboard</h1>
 
       <Button onClick={() => setFilter('all')}>
         All Products

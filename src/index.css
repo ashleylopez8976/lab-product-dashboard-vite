@@ -4,3 +4,43 @@ body {
   background-color: #f4f4f4;
   text-align: center;
 }
+
+body {
+  background-color: #102a43;
+  color: white;
+  font-family: Cambria, Georgia, serif;
+}
+
+h1 {
+  font-family: Century, "Century Schoolbook", serif;
+  font-size: 3rem;
+  color: black;
+}
+
+button.MuiButton-root {
+  font-family: Cambria, Georgia, serif;
+}
+
+button.MuiButton-text {
+  color: black;
+  background-color: #e8eef5;
+  margin: 4px;
+}
+
+button.MuiButton-text:hover {
+  background-color: #cbd8e6;
+}
+
+body {
+  color: black;
+}
+
+h1.dashboardTitle {
+  color: white;
+  font-family: Century, "Century Schoolbook", serif;
+  font-size: 3rem;
+}
+
+button.MuiButton-text {
+  color: black;
+}
