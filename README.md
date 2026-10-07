@@ -118,3 +118,18 @@ And it's gone!
 - [append()](https://developer.mozilla.org/en-US/docs/Web/API/Element/append)
 - [removeChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
 - [element.remove()](https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove)
+
+## Completed Features
+
+- Displays product names, prices, and availability.
+- Filters products by All Products, In Stock, and Out of Stock.
+- Uses CSS Modules to style out-of-stock products differently.
+- Uses Material UI for filter and Remove buttons.
+- Includes the bonus Remove feature using React state.
+- Displays a message when no products remain.
+- Removed products reset when the page refreshes.
+
+## Validation
+
+- All four provided automated tests passed.
+- Production build completed successfully with npm run build.
